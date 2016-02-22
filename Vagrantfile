@@ -30,6 +30,9 @@ $script = <<SCRIPT
   sudo /usr/sbin/apachectl restart
   echo ALL DONE WHOOHOO
   echo YOU DID IT YOU USED MY STUFF
+  sudo /usr/sbin/apachectl restart
+  echo JUST IN CASE
+  echo EVERYTHING SHOULD BE GOOD NOW :)
 
 SCRIPT
 
