@@ -1,7 +1,7 @@
 import os
 os.system('pwd')
 
-fr = open("read_file.conf", "r")
+fr = open("~/ApacheCentOSetupForPHPOne/read_file.conf", "r")
 
 os.system('sudo git clone https://github.com/selfup/PHPOne.git /var/www/html/PHPOne')
 
