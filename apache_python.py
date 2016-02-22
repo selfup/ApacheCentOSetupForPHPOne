@@ -8,7 +8,7 @@ os.system('sudo git clone https://github.com/selfup/PHPOne.git /var/www/html/PHP
 os.system('sudo rm -rf /etc/httpd/conf/httpd.conf')
 os.system('sudo echo '' >> /etc/httpd/conf/httpd.conf')
 
-fo = open("test/apache.conf", "w")
+fo = open("/etc/httpd/conf/httpd.conf", "w")
 fo.write(fr.read())
 fr.close()
 fo.close()
