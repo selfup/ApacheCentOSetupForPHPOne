@@ -25,6 +25,8 @@ $script = <<SCRIPT
   sudo /sbin/chkconfig httpd on
   sudo /sbin/chkconfig --list httpd
   sudo yum install php-mysql php-devel php-gd php-pecl-memcache php-pspell php-snmp php-xmlrpc php-xml -y
+  sudo git clone https://github.com/selfup/ApacheCentOSetupForPHPOne.git
+  python ApacheCentOSetupForPHPOne/apache_python.py
   sudo /usr/sbin/apachectl restart
   echo ALL DONE WHOOHOO
   echo YOU DID IT YOU USED MY STUFF
