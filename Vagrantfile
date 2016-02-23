@@ -32,7 +32,7 @@ $script = <<SCRIPT
   echo YOU DID IT YOU USED MY STUFF
   sudo /usr/sbin/apachectl restart
   echo JUST IN CASE
-  echo EVERYTHING SHOULD BE GOOD NOW :)
+  echo EVERYTHING SHOULD BE GOOD NOW
 
 SCRIPT
 
